@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Abrar Quadery: physics research, teaching, and publications.">
+  <title>Abrar Quadery | Physics</title>
+  <style>
+    :root { color-scheme: light; --ink:#1c2938; --muted:#536375; --accent:#175b8c; --bg:#f5f7fa; --line:#dce3ea; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Arial,sans-serif; }
+    header { background:#183b58; color:white; padding:3.5rem 1.5rem 2.7rem; text-align:center; }
+    header h1 { margin:0; font-size:clamp(2rem,5vw,3rem); letter-spacing:-.035em; }
+    header p { margin:.5rem 0 0; color:#e3edf6; }
+    nav { background:#fff; border-bottom:1px solid var(--line); padding:.9rem 1rem; text-align:center; }
+    nav a { color:var(--accent); text-decoration:none; margin:0 .7rem; font-weight:600; display:inline-block; }
+    nav a:hover, a:hover { text-decoration:underline; }
+    main { max-width:850px; margin:2rem auto; padding:0 1.25rem; }
+    section { background:white; border:1px solid var(--line); border-radius:12px; padding:1.4rem 1.7rem; margin:1.2rem 0; }
+    h2 { margin:.1rem 0 .65rem; font-size:1.35rem; }
+    a { color:var(--accent); }
+    ul { padding-left:1.4rem; }
+    footer { text-align:center; padding:2rem 1rem; color:var(--muted); font-size:.9rem; }
+    @media(max-width:540px){section{padding:1.15rem;} nav a{margin:.2rem .45rem;}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abrar Quadery</h1>
+    <p>Physics Researcher &amp; Educator</p>
+  </header>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Welcome to my academic website. My work spans experimental and computational physics, with interests in terahertz detection, semiconductor materials, and physics education.</p>
+    </section>
+    <section id="research">
+      <h2>Research</h2>
+      <p>My research interests include room-temperature terahertz and millimeter-wave detectors, photothermoelectric devices, thermoelectric thin films, and computational materials physics.</p>
+    </section>
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <p>I teach introductory physics and develop learning materials that emphasize conceptual understanding and problem solving.</p>
+      <ul>
+        <li>College Physics I</li>
+        <li>College Physics II</li>
+        <li>University Physics II</li>
+        <li>Physics of Music</li>
+      </ul>
+      <p>Course resources and worksheets will be added here.</p>
+    </section>
+    <section id="publications">
+      <h2>Publications</h2>
+      <p>A selected publication list will be added here.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Find my projects on <a href="https://github.com/atomicscale">GitHub</a>.</p>
+    </section>
+  </main>
+  <footer>&copy; <span id="year">2026</span> Abrar Quadery</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
